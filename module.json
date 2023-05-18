@@ -1,109 +1,9 @@
 {
+    "id": "dark-souls-ttrpg",
     "name": "dark-souls-ttrpg",
     "title": "Dark Souls TTRPG",
     "description": "This compendium is to enable play of the Dark Souls TTRPG within FoundryVTT",
-    "packs": [
-        {
-            "name": "dark-souls-armor",
-            "label": "Dark Souls Armor",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-armor.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-classes",
-            "label": "Dark Souls Classes",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-classes.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-class-features",
-            "label": "Dark Souls Class Features",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-class-features.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-features",
-            "label": "Dark Souls Features",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-features.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-rings",
-            "label": "Dark Souls Rings",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-rings.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-items",
-            "label": "Dark Souls Items",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-items.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-shields",
-            "label": "Dark Souls Shields",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-shields.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-weapons",
-            "label": "Dark Souls Weapons",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-weapons.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-origins",
-            "label": "Dark Souls Origins",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-origins.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-origin-features",
-            "label": "Dark Souls Origin Features",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-origin-features.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        },
-        {
-            "name": "dark-souls-spells",
-            "label": "Dark Souls Spells",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/dark-souls-spells.db",
-            "entity": "Item",
-            "module": "dark-souls-ttrpg"
-        }
-    ],
-    "id": "dark-souls-ttrpg",
+    "version": "1.1",
     "authors": [
         {
             "name": "JamanjiMan"
@@ -112,13 +12,105 @@
             "name": "Corn"
         }
     ],
-    "minimumCoreVersion": "0.8.0",
+    "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "9",
     "compatibility": {
-        "minimum": 9,
-        "verified": 10
+        "minimum": "0.8.6",
+        "verified": "10"
     },
-    "version": "1.1",
+    "packs": [
+        {
+            "name": "dark-souls-armor",
+            "label": "Dark Souls Armor",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-armor.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-classes",
+            "label": "Dark Souls Classes",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-classes.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-class-features",
+            "label": "Dark Souls Class Features",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-class-features.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-features",
+            "label": "Dark Souls Features",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-features.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-rings",
+            "label": "Dark Souls Rings",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-rings.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-items",
+            "label": "Dark Souls Items",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-shields",
+            "label": "Dark Souls Shields",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-shields.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-weapons",
+            "label": "Dark Souls Weapons",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-weapons.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-origins",
+            "label": "Dark Souls Origins",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-origins.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-origin-features",
+            "label": "Dark Souls Origin Features",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-origin-features.db",
+            "entity": "Item"
+        },
+        {
+            "name": "dark-souls-spells",
+            "label": "Dark Souls Spells",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/dark-souls-spells.db",
+            "entity": "Item"
+        }
+    ],
+    
+    
+
     "manifest": "https://github.com/pratt-jeremy/dark-souls-ttrpg/blob/main/module.json",
     "download": "https://github.com/pratt-jeremy/dark-souls-ttrpg/archive/refs/tags/0.0.1.zip"
 }
