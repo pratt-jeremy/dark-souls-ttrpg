@@ -3,7 +3,7 @@
     "name": "dark-souls-ttrpg",
     "title": "Dark Souls TTRPG",
     "description": "This compendium is to enable play of the Dark Souls TTRPG within FoundryVTT",
-    "version": "1.1",
+    "version": "1.2",
     "authors": [
         {
             "name": "JamanjiMan"
@@ -111,6 +111,6 @@
     
     
 
-    "manifest": "https://github.com/pratt-jeremy/dark-souls-ttrpg/blob/main/module.json",
-    "download": "https://github.com/pratt-jeremy/dark-souls-ttrpg/archive/refs/tags/0.0.1.zip"
+    "manifest": "https://raw.githubusercontent.com/pratt-jeremy/dark-souls-ttrpg/main/module.json",
+    "download": "https://github.com/pratt-jeremy/dark-souls-ttrpg/archive/refs/tags/1.2.zip"
 }
